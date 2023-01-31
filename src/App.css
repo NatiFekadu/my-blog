@@ -32,42 +32,42 @@ nav ul {
   padding: 0;
 }
 
-nav li{
+nav li {
   display: inline-block;
   padding-top: 16px;
   padding-bottom: 16px;
 }
 
-nav a{
+nav a {
   text-decoration: none;
   color: black;
   font-weight: bold;
-  padding: 160x 32px;
+  padding: 16px 32px;
 }
 
-nav a:hover{
+nav a:hover {
   background: black;
   color: white;
 }
 
-#page-body{
+#page-body {
   max-width: 700px;
   margin: auto;
-  padding-top: 64px; 
+  padding-top: 64px;
 }
 
-.article-list-item{
+.article-list-item {
   text-decoration: none;
   color: black;
   padding: 16px 0 0 0;
 }
 
-.article-list-item p{
+.article-list-item p {
   padding-bottom: 32px;
   border-bottom: 2px solid black;
 }
 
-#add-comment-form{
+#add-comment-form {
   border-bottom: 2px solid black;
   padding: 16px;
 }
@@ -75,7 +75,8 @@ nav a:hover{
   margin-bottom: 16px;
 }
 
-#add-comment-form input, textarea {
+#add-comment-form input,
+textarea {
   display: block;
   width: 300px;
   padding: 8px;
@@ -85,14 +86,15 @@ nav a:hover{
   border: 2px solid black;
   margin-bottom: 16px;
 }
-#add-comment-form button{
+#add-comment-form button {
   width: 320px;
 }
-#upvotes-section button,p{
+#upvotes-section button,
+p {
   display: inline-block;
   margin-right: 16px;
 }
-.comment{
+.comment {
   border-bottom: 2px solid black;
   padding: 16px;
 }

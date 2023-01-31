@@ -1,9 +1,20 @@
-import React from 'react'
+import React from 'react';
+import { useParams } from 'react-router-dom';
+import articles from './article-content';
 
 const ArticlePage = () => {
-  return (
-    <div>ArticlePage</div>
-  )
-}
+  const { articleId } = useParams();
+  const article = articles.find((article) => article.name === articleId);
 
-export default ArticlePage
+  return (
+    <>
+      <h1>{article.title}</h1>
+      {article.content.map((paragraph) => (
+        <p>{paragraph}</p>
+      ))}
+      ;
+    </>
+  );
+};
+
+export default ArticlePage;

@@ -4,7 +4,7 @@ const articles = [
     title: 'The Fastest Way to Learn React',
     content: [
       `
-        React is a popular JavaScript library for building user interfaces. It’s fast, flexible, and powerful, making it an ideal choice for developers looking to build web applications. Learning React is a great investment for your career as a software developer, as it is widely used and has a large community that provides support and resources. This article will take you through the basics of React and give you everything you need to start building your own applications.
+          React is a popular JavaScript library for building user interfaces. It’s fast, flexible, and powerful, making it an ideal choice for developers looking to build web applications. Learning React is a great investment for your career as a software developer, as it is widely used and has a large community that provides support and resources. This article will take you through the basics of React and give you everything you need to start building your own applications.
 `,`
 Step 1: Understanding the Basics
 

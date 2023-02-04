@@ -1,5 +1,5 @@
 import React from 'react'
-import articles from '../pages/article-content'
+//import articles from '../pages/article-content'
 import {Link} from 'react-router-dom'
 
 const ArticlesList = ({ articles }) => {

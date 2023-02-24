@@ -21,4 +21,4 @@ const useUser = () => {
   return {user,isLoading};
 }
 
-export default useUser
+export default useUser;

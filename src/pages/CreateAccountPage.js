@@ -18,7 +18,7 @@ const CreateAccountPage = () => {
         setError('Password and confirm password do not match');
         return;
         }
-         await createUserWithEmailAndPassword(getAuth,email,password);
+         await createUserWithEmailAndPassword(getAuth(),email,password);
          navigate('/articlelist');
       } catch (error) {
         setError(error.message);
@@ -31,6 +31,7 @@ const CreateAccountPage = () => {
       <h1>Create Account</h1>
       {error && <p className='error'>{error}</p>}
       <input
+      type="text"
         placeholder="your email address"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
@@ -47,7 +48,7 @@ const CreateAccountPage = () => {
         value={confirmPassword}
         onChange={(e) => setConfirmPassword(e.target.value)}
       />
-      <button onClick={createAccount}>Create Accont</button>
+      <button  className='loginbutton' onClick={createAccount}>Create Accont</button>
       <Link to="/login">ALready Have An Account ? Login Here </Link>
     </>
   );

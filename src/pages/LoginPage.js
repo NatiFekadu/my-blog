@@ -23,18 +23,21 @@ const LoginPage = () => {
     <>
       <h1>Log In</h1>
       {error && <p className="error">{error}</p>}
+      <label for="email"><b>Email</b></label>
       <input
+      type="text"
         placeholder="your email address"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
       />
+      <label for="psw"><b>Password</b></label>
       <input
         type="password"
         placeholder="Your password"
         value={password}
         onChange={(e) => setPassword(e.target.value)}
       />
-      <button onClick={logIn}>Log In</button>
+      <button className='loginbutton' onClick={logIn}>Log In</button>
       <Link to="/create-account">Don't Have an account create one here</Link>
     </>
   );
